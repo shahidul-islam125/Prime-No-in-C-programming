@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
     int num, i, count = 0;
     printf("Enter any number :");
@@ -20,6 +21,6 @@ int main(){
             printf("Not a prime no.\n");
         }
                
-    
+    getch();
     return 0;
 }
